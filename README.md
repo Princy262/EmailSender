@@ -12,8 +12,6 @@ The Email Sender Application is a Node.js-based web application that allows user
 - [Setup](#setup)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Author] (#author)
-
 ---
 
 ## Overview
@@ -96,8 +94,3 @@ Contributions are welcome! If you'd like to improve this project, please follow 
 5. Submit a pull request.
 
 ---
-
-## Author
-
-- **Princy Agarwal**  
-  [GitHub Profile](https://github.com/Princy262)
