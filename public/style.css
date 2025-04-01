@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #70bbd9, #4e9abf);
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.email-form input,
+.email-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.email-form input:focus,
+.email-form textarea:focus {
+  border-color: #70bbd9;
+  box-shadow: 0 0 8px rgba(112, 187, 217, 0.3);
+  outline: none;
+}
+
+.email-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.email-form button {
+  padding: 12px 0;
+  background: #70bbd9;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.email-form button:hover {
+  background: #4e9abf;
+  transform: scale(1.05);
+}
+
+.status-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.status-message.success {
+  background: #dff0d8;
+  color: #2e7d32;
+}
+
+.status-message.error {
+  background: #f2dede;
+  color: #a94442;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #777;
+  margin-top: 20px;
+}
